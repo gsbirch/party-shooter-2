@@ -1,0 +1,62 @@
+.YellowText {
+    -unity-font-definition: url("project://database/Assets/Graphics/Acme-Regular%20SDF.asset?fileID=11400000&guid=481546ba14d8520488beba39181f3b5c&type=2#Acme-Regular SDF");
+    -unity-font: url("project://database/Assets/Graphics/Acme-Regular.ttf?fileID=12800000&guid=f66437cfb337ddd49a348d310fc48832&type=3#Acme-Regular");
+    color: rgb(255, 255, 0);
+    font-size: 30px;
+}
+
+.WoodButton {
+    font-size: 80px;
+    background-image: url("project://database/Assets/Graphics/Wooden%20UI/Plank_10.png?fileID=2800000&guid=3a35fbf942420f249920fe916767d9c6&type=3#Plank_10");
+    background-color: rgba(188, 188, 188, 0);
+    -unity-font: url("project://database/Assets/Graphics/Acme-Regular.ttf?fileID=12800000&guid=f66437cfb337ddd49a348d310fc48832&type=3#Acme-Regular");
+    -unity-font-definition: url("project://database/Assets/Graphics/Acme-Regular%20SDF.asset?fileID=11400000&guid=481546ba14d8520488beba39181f3b5c&type=2#Acme-Regular SDF");
+    padding-top: 15px;
+    padding-right: 18px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    color: rgb(255, 255, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.NotificationText {
+    -unity-font: url("project://database/Assets/Graphics/Acme-Regular.ttf?fileID=12800000&guid=f66437cfb337ddd49a348d310fc48832&type=3#Acme-Regular");
+    -unity-font-definition: url("project://database/Assets/Graphics/Acme-Regular%20SDF.asset?fileID=11400000&guid=481546ba14d8520488beba39181f3b5c&type=2#Acme-Regular SDF");
+    font-size: 40px;
+}
+
+.ItemSlot {
+    background-image: url("project://database/Assets/Graphics/Wooden%20UI/frame_c2_01.png?fileID=2800000&guid=b5233d4b7d8894547b776613ce15ff7e&type=3#frame_c2_01");
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ItemDisplay {
+    width: 90%;
+    height: 90%;
+    background-image: none;
+}
+
+.ItemCount {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -unity-text-align: upper-right;
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+    -unity-font: url("project://database/Assets/Graphics/Acme-Regular.ttf?fileID=12800000&guid=f66437cfb337ddd49a348d310fc48832&type=3#Acme-Regular");
+    -unity-font-definition: url("project://database/Assets/Graphics/Acme-Regular%20SDF.asset?fileID=11400000&guid=481546ba14d8520488beba39181f3b5c&type=2#Acme-Regular SDF");
+    color: rgb(255, 255, 0);
+    font-size: 30px;
+}

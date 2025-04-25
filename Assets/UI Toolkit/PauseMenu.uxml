@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/wooden.uss?fileID=7433441132597879392&amp;guid=306220374eb9a874e92e8789094bc3d2&amp;type=3#wooden" />
+    <ui:VisualElement name="Background" style="-unity-background-image-tint-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.27); width: 100%; height: 100%; align-items: center; justify-content: space-around; display: flex;">
+        <ui:VisualElement name="DebugPanel" style="position: absolute; left: 0; top: 0; height: 100%; width: 25%; background-image: url(&quot;project://database/Assets/Graphics/Wooden%20UI/bg_01_02.png?fileID=2800000&amp;guid=e058db5dd3eacbc4282fbe91911c33a3&amp;type=3#bg_01_02&quot;); -unity-slice-left: 10; -unity-slice-top: 10; -unity-slice-right: 10; -unity-slice-bottom: 10; -unity-background-scale-mode: stretch-to-fill; -unity-slice-scale: 1px; align-items: center; justify-content: center; display: none;">
+            <ui:Button text="Go To Lobby" parse-escape-sequences="true" display-tooltip-when-elided="true" name="EndMatch" class="WoodButton" style="width: 90%; font-size: 55px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 45%; justify-content: space-around; padding-top: 3%; padding-right: 3%; padding-bottom: 3%; padding-left: 3%; background-image: url(&quot;project://database/Assets/Graphics/Wooden%20UI/bg_01_02.png?fileID=2800000&amp;guid=e058db5dd3eacbc4282fbe91911c33a3&amp;type=3#bg_01_02&quot;); -unity-slice-left: 10; -unity-slice-top: 10; -unity-slice-right: 10; -unity-slice-bottom: 10;">
+            <ui:VisualElement style="width: 100%; align-items: flex-start; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+                <ui:VisualElement style="width: 100%; flex-direction: row;">
+                    <ui:Label tabindex="-1" text="Sensitivity: X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SensitivityText" class="YellowText" style="width: 35%; font-size: 40px;" />
+                    <ui:SliderInt high-value="30" low-value="1" name="SensitivitySlider" style="width: 65%; min-height: auto;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="width: 100%; flex-direction: row;">
+                    <ui:Label tabindex="-1" text="Volume: X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="VolumeText" class="YellowText" style="width: 35%; font-size: 40px;" />
+                    <ui:SliderInt high-value="100" low-value="0" name="VolumeSlider" style="width: 65%; min-height: auto;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="width: 100%; flex-direction: row; justify-content: space-around; align-items: center;">
+                    <ui:Button text="Quit Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuitGame" class="WoodButton" style="width: 40%; color: rgb(255, 56, 0); height: 90%; font-size: 60px;" />
+                    <ui:Button text="Exit Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitMenu" class="WoodButton" style="width: 40%; height: 90%; font-size: 60px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

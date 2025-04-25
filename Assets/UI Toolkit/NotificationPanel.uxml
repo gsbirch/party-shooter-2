@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/wooden.uss?fileID=7433441132597879392&amp;guid=306220374eb9a874e92e8789094bc3d2&amp;type=3#wooden" />
+    <ui:VisualElement name="Anchor" style="position: absolute; left: 0; bottom: 0; flex-direction: column-reverse;" />
+</ui:UXML>

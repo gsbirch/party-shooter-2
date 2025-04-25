@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/wooden.uss?fileID=7433441132597879392&amp;guid=306220374eb9a874e92e8789094bc3d2&amp;type=3#wooden" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement style="width: 33%;">
+            <ui:Label tabindex="-1" text="Players" parse-escape-sequences="true" display-tooltip-when-elided="true" class="YellowText" style="font-size: 100px;" />
+            <ui:Label tabindex="-1" text="PlayerText&#10;PlayerText&#10;PlayerText&#10;PlayerText" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayerList" class="YellowText" style="font-size: 60px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 34%; justify-content: space-around;">
+            <ui:VisualElement />
+            <ui:Button text="Start Game!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartGame" class="WoodButton" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 33%;" />
+    </ui:VisualElement>
+</ui:UXML>

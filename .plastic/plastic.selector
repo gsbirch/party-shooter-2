@@ -1,0 +1,4 @@
+repository "Magitory@ProbablyNotGage@cloud"
+  path "/"
+    br "/main"
+    co "/main"
